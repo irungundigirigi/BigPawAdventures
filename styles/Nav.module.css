@@ -1,5 +1,5 @@
 .nav {
-  background-color: white;
+  background-color: rgb(46, 3, 3);
   height: 50px;
   width: 100vw;
   margin-top: 0;
@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  color: teal;
+  color: white;
   font-weight: bold;
   position: fixed;
   z-index: 10;

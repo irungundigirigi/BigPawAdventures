@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Logo from '../public/icon.jpg'
+import Logo from '../public/icon.svg'
 import styles from '../styles/Nav.module.css';
 
 export default function Navbar() {
