@@ -13,13 +13,7 @@
   position: fixed;
   z-index: 10;
 }
-.Hamburger {
-  display: none;
-  flex: 2;
-  background-color: tomato;
-  width: 200px;
-  height: 40px;
-}
+
 .logoContainer {
   display: flex;
   flex-direction: row;
@@ -58,6 +52,9 @@
   width: 100%;
   transition: 0.3s;
 }
+.Link:hover {
+  color: rgb(82, 208, 250);
+}
 
 @media only screen and (max-width: 700px) {
   .nav {
@@ -73,5 +70,13 @@
   .fabars {
     cursor: pointer;
     font-size: 25px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .Hamburger {
+    display: none;
+  }
+  .fabars {
+    display: none;
   }
 }
