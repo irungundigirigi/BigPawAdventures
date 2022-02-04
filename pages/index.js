@@ -17,7 +17,7 @@ export default function Home() {
             src={th}
             alt="Third slide"
           />
-        <Carousel.Caption>
+        <Carousel.Caption className={styles.caption}>
             <h3 className={styles.h3}>Adventure Tour Company</h3>
             <p>We offer high quality adventure and wildlife safaris within East Africa and particularly Kenya.</p>
         </Carousel.Caption>
