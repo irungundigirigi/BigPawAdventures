@@ -10,18 +10,17 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <div>
-      <Carousel>
+      <Carousel  className={styles.carousel}> 
         <Carousel.Item>
           <Image
             className="d-block w-100"
             src={th}
             alt="Third slide"
           />
-
-          <Carousel.Caption>
-            <h3 className={styles.h3}>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
+        <Carousel.Caption>
+            <h3 className={styles.h3}>Adventure Tour Company</h3>
+            <p>We offer high quality adventure and wildlife safaris within East Africa and particularly Kenya.</p>
+        </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
