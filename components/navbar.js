@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, {useState} from 'react';
 import Link from 'next/link';
 import Logo from '../public/icon.svg'
+import BigPaw from '../public/bP.png'
 import styles from '../styles/Nav.module.css';
 import { FaBars}  from 'react-icons/fa';
 import { AiOutlineClose} from 'react-icons/ai';
@@ -29,7 +30,9 @@ export default function Navbar() {
                 <div className={styles.logo}>
                     <Image src={Logo}></Image>
                 </div>
-                <div>BigPaw Adventure</div>
+                <div className={styles.logoName}>
+                    <Image src={BigPaw}></Image>
+                </div>
             </div>
             <div className={styles.menu}>
                 <Link  href='/'>

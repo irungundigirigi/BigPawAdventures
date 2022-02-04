@@ -22,8 +22,15 @@
 }
 .logo {
   display: flex;
-  width: 50px;
+  width: 60px;
   height: 50px;
+}
+.logoName {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  justify-content: flex-start;
 }
 .menu {
   display: flex;
