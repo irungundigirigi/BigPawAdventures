@@ -18,7 +18,7 @@ export default function Carousel() {
                 disableDotsControls = {true}
                 autoPlay autoPlayInterval="4000">
                <div>
-                 <Image src={Image2} />
+                 
                    <div className={styles.h1}>
                     This is an exciting 2 days safari into the famous Maasai Mara, 
                     the jewel of Kenya's wildlife and the greatest spot for wildebeest migration.
