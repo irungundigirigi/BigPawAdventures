@@ -24,7 +24,6 @@ export default function Carousel() {
                     the jewel of Kenya's wildlife and the greatest spot for wildebeest migration.
                     <button className={styles.btn}>Book</button>
                     </div>
-                    
                 </div>
 
                <div><Image src={Image3} /><h1 className={styles.h1}></h1></div>
