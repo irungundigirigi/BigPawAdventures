@@ -10,10 +10,7 @@ export default function Home() {
         <Carousel />
       </div>
       <div>
-        <h1>lorem ipsum sjshsja jdshdsajhsa jdshds jhdshdsaka kdhshiwendsn skshdnksa sasdihkska hdskaskhha sajhsahska asjbsjdsgbjAMAJKA
-        lorem ipsum sjshsja jdshdsajhsa jdshds jhdshdsaka kdhshiwendsn skshdnksa sasdihkska hdskaskhha sajhsahska asjbsjdsgbjAMAJKA
-        lorem ipsum sjshsja jdshdsajhsa jdshds jhdshdsaka kdhshiwendsn skshdnksa sasdihkska hdskaskhha sajhsahska asjbsjdsgbjAMAJKA
-        </h1>
+       
       </div>
     </div>
   )
