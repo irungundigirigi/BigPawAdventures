@@ -16,15 +16,8 @@ export default function Navbar() {
     }    
 
     return ( 
-    <>
-        <Head>
-        <meta name= "description" content="" />
-        <meta name= "keywords" content=""/>
-        <title>BigPaw adventures</title>
-        <link rel="icon" sizes="32x32" href="icon.svg" />
-        </Head>
-
-        <nav className={styles.nav}>
+    
+    <nav className={styles.nav}>
             <div className={styles.logoContainer}>
                 <div className={styles.logo}>
                     <Image src={Logo}></Image>
@@ -33,22 +26,22 @@ export default function Navbar() {
 
             <div className={styles.menu}>
                 <Link  href='/'>
-                        <span className={styles.Link}>Home</span >
+                        <span className={styles.Link}>HOME</span >
                 </Link>
                 <Link  href='/destinations'>
-                        <span className={styles.Link}>Destinations</span >
+                        <span className={styles.Link}>WILDLIFE</span >
                 </Link>
                 <Link  href='/about'>
-                        <span className={styles.Link}>About us</span >
+                        <span className={styles.Link}>ABOUT </span >
                 </Link>
                 <Link  href='/contact'>
-                        <span className={styles.Link}>Contact us</span >
+                        <span className={styles.Link}>CONTACT</span >
                 </Link>
             </div>
             <div className={styles.hamburger}>
                {inProps?<AiOutlineClose  className={styles.fabars}  onClick={menuClicked}/> : <FaBars  className={styles.fabars} onClick={menuClicked}/> }
            </div>
-        </nav>
-    </>
+    </nav>
+   
     );
   }

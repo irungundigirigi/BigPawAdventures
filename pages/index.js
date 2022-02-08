@@ -1,9 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Kelly from '../public/kelly_mtKenya.JPG'
-import t from '../public/2.JPG'
-import th from '../public/3.JPG'
-import fr from '../public/4.JPG'
 import styles from '../styles/Home.module.css';
 import Carousel from '../components/carousel'
 
@@ -11,9 +5,16 @@ import Carousel from '../components/carousel'
 
 export default function Home() {
   return (
-    <div>
-      <Carousel />
-     
+    <div className={styles.home}>
+      <div className={styles.carousel}>
+        <Carousel />
+      </div>
+      <div>
+        <h1>lorem ipsum sjshsja jdshdsajhsa jdshds jhdshdsaka kdhshiwendsn skshdnksa sasdihkska hdskaskhha sajhsahska asjbsjdsgbjAMAJKA
+        lorem ipsum sjshsja jdshdsajhsa jdshds jhdshdsaka kdhshiwendsn skshdnksa sasdihkska hdskaskhha sajhsahska asjbsjdsgbjAMAJKA
+        lorem ipsum sjshsja jdshdsajhsa jdshds jhdshdsaka kdhshiwendsn skshdnksa sasdihkska hdskaskhha sajhsahska asjbsjdsgbjAMAJKA
+        </h1>
+      </div>
     </div>
   )
 }

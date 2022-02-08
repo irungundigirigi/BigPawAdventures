@@ -1,17 +1,16 @@
 .nav {
-  background-color: rgb(46, 3, 3);
-  height: 50px;
+  background-color: rgb(68, 4, 4);
+  height: 60px;
   width: 100vw;
-  margin-top: 0;
-  padding: 0px 10vw 0px 120px;
+  padding: 5px 10vw 5px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: white;
   font-weight: bold;
-  position: fixed;
   z-index: 10;
+  position: fixed;
 }
 
 .logoContainer {
@@ -38,7 +37,7 @@
   cursor: pointer;
   margin-right: 50px;
   position: relative;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 
 .Link::after {
@@ -55,9 +54,6 @@
 .Link:hover::after {
   width: 100%;
   transition: 0.3s;
-}
-.Link:hover {
-  color: rgb(82, 208, 250);
 }
 
 @media only screen and (max-width: 700px) {

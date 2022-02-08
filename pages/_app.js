@@ -13,6 +13,10 @@ function MyApp({ Component, pageProps }) {
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossOrigin="anonymous"
       />
+      <meta name= "description" content="" />
+      <meta name= "keywords" content=""/>
+      <title>BigPaw adventures</title>
+      <link rel="icon" sizes="32x32" href="icon.svg" />
     </Head>
   
     <Script
