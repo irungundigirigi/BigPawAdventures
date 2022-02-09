@@ -18,7 +18,7 @@ export default function Package() {
             </div>
             <div className={styles.content}>
             This is an exciting 2 days  safari into the famous Maasai Mara,
-            the jewel of Kenya's wildlife and the greatest spot for wildebeest migration.
+            the jewel of Kenyas wildlife and the greatest spot for wildebeest migration.
             
 
 
