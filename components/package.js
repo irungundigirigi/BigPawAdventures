@@ -20,7 +20,7 @@ export default function Package() {
             This is an exciting 2 days  safari into the famous Maasai Mara,
             the jewel of Kenyas wildlife and the greatest spot for wildebeest migration.
             </div>
-            <div className={styles.priceTag}> From $250</div>
+            <div className={styles.priceTag}> <span className={styles.From}>From</span> $250</div>
 
 
         </div>
