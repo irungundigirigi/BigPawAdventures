@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css';
 import Carousel from '../components/carousel'
 import TwoDayPackage from '../components/packages/TwoDayPackage';
+import TreeDaysTwoNights from '../components/packages/ThreeDaysTwoNights'
 
 
 
@@ -10,7 +11,11 @@ export default function Home() {
       <div className={styles.carousel}>
         <Carousel />
       </div>
-      <TwoDayPackage />
+      <div className={styles.packagesHolder}> 
+        <TwoDayPackage />
+        <TreeDaysTwoNights />
+      </div>
+      
     </div>
   )
 }
