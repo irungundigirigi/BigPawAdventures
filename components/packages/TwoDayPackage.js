@@ -17,7 +17,7 @@ export default function TwoDayPackage() {
             This is an exciting 2 days  safari into the famous Maasai Mara,
             the jewel of Kenyas wildlife and the greatest spot for wildebeest migration.
             </div>
-            <div className={styles.priceTag}> <span className={styles.From}>From</span> $250</div>
+            <div className={styles.priceTag}> <span className={styles.From}>From</span> $1020</div>
             <button className={styles.btn}>See more</button>
 
         </div>
