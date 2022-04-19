@@ -57,6 +57,10 @@
   width: 100%;
   transition: 0.3s;
 }
+.menuMobile {
+  display: none;
+  width: 100%;
+}
 
 @media only screen and (max-width: 700px) {
   .menuMobile {
@@ -67,7 +71,7 @@
     position: absolute;
     padding-left: 20px;
     left: 0;
-    right:0;
+    right:  0;
     z-index: 9;
     font-family: "Montserrat", sans-serif;
     top: -100vh;
@@ -86,7 +90,7 @@
     font-size: 16px;
     font-family: "Raleway", sans-serif;
     width: 100vw;
-    height: 120px;
+    height: fit-content;
     top: 60px;
     overflow-y: auto;
     position: absolute;
