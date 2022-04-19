@@ -65,7 +65,10 @@
   }
   .sidebarOff {
     position: absolute;
-    z-index: -10;
+    padding-left: 20px;
+    left: 0;
+    right:0;
+    z-index: 9;
     font-family: "Montserrat", sans-serif;
     top: -100vh;
     width: 100%;
@@ -75,22 +78,24 @@
 
   .sidebar {
     position: absolute;
+    padding-left: 20px;
     left: 0;
     right:0;
     z-index: 9;
-    margin-left: 0;
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
     width: 100vw;
-    height: 20vh;
+    height: 120px;
     top: 60px;
     overflow-y: auto;
     position: absolute;
     background-color:  rgb(68, 4, 4, 0.5);
     backdrop-filter: blur(10px);
-    transition: 850ms;
+    transition: 750ms;
   }
   .link {
+    
     display: flex;
     align-items: center;
     color: #fff;
