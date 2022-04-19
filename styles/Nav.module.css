@@ -74,7 +74,10 @@
   }
 
   .sidebar {
-    z-index: -10;
+    position: absolute;
+    left: 0;
+    right:0;
+    z-index: 9;
     margin-left: 0;
     display: block;
     font-family: "Montserrat", sans-serif;
@@ -82,7 +85,7 @@
     height: 20vh;
     top: 60px;
     overflow-y: auto;
-    position: fixed;
+    position: absolute;
     background-color:  rgb(68, 4, 4, 0.5);
     backdrop-filter: blur(10px);
     transition: 850ms;
