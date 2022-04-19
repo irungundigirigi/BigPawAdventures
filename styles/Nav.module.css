@@ -59,6 +59,58 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .menuMobile {
+    display: block;
+    width: 100%;
+  }
+  .sidebarOff {
+    position: absolute;
+    z-index: -10;
+    font-family: "Montserrat", sans-serif;
+    top: -100vh;
+    width: 100%;
+    min-height: -40vh;
+    transition: 650ms;
+  }
+
+  .sidebar {
+    z-index: -10;
+    margin-left: 0;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    width: 100vw;
+    height: 20vh;
+    top: 60px;
+    overflow-y: auto;
+    position: fixed;
+    background-color:  rgb(68, 4, 4, 0.5);
+    backdrop-filter: blur(10px);
+    transition: 850ms;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0px 0px;
+  }
+  .link:hover {
+    background-color: royalblue;
+    transition: 0.3s ease;
+  }
+  .menuIcon {
+    margin: 0px 10px 0 10px;
+  }
   .nav {
     padding-left: 10px;
     padding-right: 20px;

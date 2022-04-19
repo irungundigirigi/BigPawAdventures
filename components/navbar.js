@@ -28,8 +28,11 @@ export default function Navbar() {
                 <Link  href='/'>
                         <span className={styles.Link}>HOME</span >
                 </Link>
+                <Link  href='/'>
+                        <span className={styles.Link}>WILDBEAST MIGRATION</span >
+                </Link>
                 <Link  href='/destinations'>
-                        <span className={styles.Link}>WILDLIFE</span >
+                        <span className={styles.Link}>NAIROBI CITY TOURS</span >
                 </Link>
                 <Link  href='/about'>
                         <span className={styles.Link}>ABOUT </span >
@@ -41,6 +44,29 @@ export default function Navbar() {
             <div className={styles.hamburger}>
                {inProps?<AiOutlineClose  className={styles.fabars}  onClick={menuClicked}/> : <FaBars  className={styles.fabars} onClick={menuClicked}/> }
            </div>
+           <div className={inProps? styles.sidebar: styles.sidebarOff}>
+              <div className={styles.menuMobile} >
+                <item className={styles.item}>
+                  <div className={styles.link}> 
+                   
+                     <Link href='/'>Home</Link>
+                  </div>
+                  
+                </item>
+                <item className={styles.item}>
+                   <div className={styles.link}>
+                     <Link href='/featured'>Featured</Link>
+                   </div>
+                </item>
+
+                <item className={styles.item}>
+                   <div className={styles.link}>
+                     <Link href='/contact-us'>Contact</Link>
+                   </div>
+                </item>
+                
+               </div>
+            </div>
     </nav>
    
     );
