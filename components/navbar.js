@@ -55,14 +55,15 @@ export default function Navbar() {
                 </item>
                 <item className={styles.item}>
                    <div className={styles.link}>
-                     <Link href='/featured'>Wildbeast migration</Link>
+                     <Link href='/featured'>Nairobi City Tours</Link>
                    </div>
                 </item>
                 <item className={styles.item}>
                    <div className={styles.link}>
-                     <Link href='/featured'>Nairobi City Tours</Link>
+                     <Link href='/featured'>Wildbeast migration</Link>
                    </div>
                 </item>
+                
                 <item className={styles.item}>
                    <div className={styles.link}>
                      <Link href='/featured'>Masai Mara</Link>

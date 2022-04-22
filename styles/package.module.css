@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
 .packageCard {
   width: 300px;
-  height: auto;
+  height: fit-content;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -15,44 +17,52 @@
   position: relative;
 }
 .cardHeader {
-  text-align: center;
+  text-align: left;
   color: green;
   font-size: 30px;
   font-family: "Comforter", cursive;
+  width:100%;
+ 
 }
-.priceTag {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-weight: bolder;
-  color: white;
-  background-color: dodgerblue;
-  padding: 5px;
-  line-height: 30px;
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.btm {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: royalblue;
+  letter-spacing: 0.5;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+ 
 }
 .From {
-  font-size: 12px;
-  font-family: "Roboto Serif", sans-serif;
+  color: black;
+  font-size: 15px;
 }
 .btn {
-  margin-left: auto;
-  background-color: dodgerblue;
-  outline: none;
   border: none;
-  color: white;
-  width: 100%;
-  padding: 5px;
-  font-family: "Lato", sans-serif;
-  margin: 10px;
-}
-.btn:hover {
-  background-color: darkslateblue;
-  transition: 30ms;
+  background: transparent;
+  color: #d32f2f;
 }
 @media only screen and (max-width: 700px) {
   .packageCard {
+    display: flex;
+    flex-direction: column;
     width: 96vw;
     height: auto;
     padding-bottom: 25px;
+   
   }
 }

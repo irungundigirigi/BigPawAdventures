@@ -2,6 +2,7 @@ import styles from '../../styles/package.module.css';
 import Image from 'next/image'
 import zebra from '../../public/mara-nakuru.png';
 import React from 'react';
+import { AiOutlineArrowRight }  from 'react-icons/ai';
 
 
 export default function MaraNakuru() {
@@ -13,14 +14,10 @@ export default function MaraNakuru() {
             <div className={styles.cardHeader}>
                 Maasai Mara/ Lake Nakuru - 4 Days/3 nights
             </div>
-            <div className={styles.content}>
-                Adding to two memorable days at the game filled plains of the Maasai Mara Game Reserve, this safari also
-                takes you to Lake Nakuru National Park which is one of the worlds greatest bird paradise. Other than thebird population of different species and especially flamingos that flock the lake, the park has its fair share
-                of wildlife that include the endangered black rhino.
+            <div className={styles.btm}>
+                <div className={styles.priceTag}> <span className={styles.From}>From</span> $1020</div>
+                <button className={styles.btn}>See more <AiOutlineArrowRight /></button>
             </div>
-            <div className={styles.priceTag}> <span className={styles.From}>From</span> $420</div>
-            <button className={styles.btn}>See more</button>
-
         </div>
   );
 }
