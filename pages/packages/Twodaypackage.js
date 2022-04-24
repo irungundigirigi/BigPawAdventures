@@ -40,10 +40,10 @@ export default function Twodaypackage() {
     <div className={styles.overviewHolder}> 
       <span className={styles.overviewHeading}>Overview</span>
       <p>
-          This is an exciting 2 days safari into the famous Maasai Mara, the jewel of Kenya's wildlife and the
+          This is an exciting 2 days safari into the famous Maasai Mara, the jewel of Kenyas wildlife and the
           greatest spot for wildebeest migration. The trip will start immediately upon your arrival at Jomo Kenyatta
           International Airport into the famous Maasai Mara Game Reserve through the Great Rift Valley. You are
-          likely to see plenty of wildlife varying from Kenya's big five; the lion, elephant, rhino, buffalo, and the
+          likely to see plenty of wildlife varying from Kenyas big five; the lion, elephant, rhino, buffalo, and the
           leopard among a host of other different animal species. You will travel in a shared safari tour van and stay
           in a tented camp.
       </p>
