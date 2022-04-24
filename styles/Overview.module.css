@@ -36,3 +36,11 @@
 font-size: 20px;
 font-family: 'Raleway', sans-serif;
 }
+.overviewHolder {
+    padding: 0 15px;
+}
+.overviewHeading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+
+}
