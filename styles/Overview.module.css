@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
 .headerContainer {
     background-color: #f0f0f0;
     height: fit-content;
@@ -42,5 +45,8 @@ font-family: 'Raleway', sans-serif;
 .overviewHeading{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+}
+.p {
+    font-family: 'Libre Baskerville', serif;
 
 }

@@ -39,7 +39,7 @@ export default function Twodaypackage() {
     </div>
     <div className={styles.overviewHolder}> 
       <span className={styles.overviewHeading}>Overview</span>
-      <p>
+      <p className={styles.p}>
           This is an exciting 2 days safari into the famous Maasai Mara, the jewel of Kenyas wildlife and the
           greatest spot for wildebeest migration. The trip will start immediately upon your arrival at Jomo Kenyatta
           International Airport into the famous Maasai Mara Game Reserve through the Great Rift Valley. You are
