@@ -22,7 +22,7 @@ export default function Twodaypackage() {
                 <Image src={mara3} />
     </AliceCarousel>
     <div className={styles.headerContainer}>
-       <div className={styles.header}>Two day Masai Mara package</div>
+       <div className={styles.header}>Two day Masai Mara</div>
        <div className={styles.featuresHolder}>
         <div className={styles.featureHolder}>
              <FaMoneyCheckAlt className={styles.icon}/>
