@@ -3,6 +3,7 @@ import Image from 'next/image'
 import zebra from '../../public/2_days_maasai_mara.png';
 import React from 'react';
 import { AiOutlineArrowRight }  from 'react-icons/ai';
+import Link from 'next/link'
 
 
 export default function TwoDayPackage() {
@@ -16,7 +17,10 @@ export default function TwoDayPackage() {
             </div>
             <div className={styles.btm}>
                 <div className={styles.priceTag}> <span className={styles.From}>From</span> $1020</div>
-                <button className={styles.btn}>See more <AiOutlineArrowRight /></button>
+                <button className={styles.btn}>
+                    <Link href="packages/Twodaypackage">
+                    </Link>
+                </button>
             </div>
         </div>
   );
