@@ -19,6 +19,7 @@ export default function TwoDayPackage() {
                 <div className={styles.priceTag}> <span className={styles.From}>From</span> $1020</div>
                 <button className={styles.btn}>
                     <Link href="packages/Twodaypackage">
+                     <AiOutlineArrowRight />
                     </Link>
                 </button>
             </div>
