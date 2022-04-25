@@ -45,9 +45,11 @@
 .overviewHeading{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    color: #2a7886;
 }
 .p {
     font-family: 'Libre Baskerville', serif;
+    background-color: #fffaf0;
 
 }
 .ToggleView {
@@ -58,6 +60,7 @@
 .dropDown {
     font-size: 30px;
     margin-left: 5px;
+    color: #2a7886;
  
 }
 .pOff{

@@ -30,7 +30,7 @@ const ToggleSchedule = () => {
 
   return (
 
-    <>
+    < >
     <AliceCarousel 
                 disableButtonsControls= {true}
                 disableDotsControls = {true}
@@ -75,7 +75,7 @@ const ToggleSchedule = () => {
       <div className={schedule? styles.schedule: styles.scheduleOff}>
         <div className={styles.dayHolder}>
           <span className={styles.dayHeader}>Day 1. Nairobi/Maasai Mara</span>
-          <p>
+          <p className={styles.p}>
             Depart Nairobi in the morning and drive to the floor of the Rift Valley - to Maasai Mara Game Reserve
             arriving in time for lunch. Afternoon game drive. Dinner and overnight at Tented camp.
             Approx transit time: 5½ hrs
