@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import AliceCarousel from 'react-alice-carousel';
 import Image from 'next/image';
 import styles from '../../styles/Overview.module.css'
@@ -8,10 +8,28 @@ import mara2 from '../../public/TwoDayMaraOverview/mara2.JPG'
 import mara3 from '../../public/TwoDayMaraOverview/mara3.JPG'
 import {FaMoneyCheckAlt,} from 'react-icons/fa';
 import {BiTimeFive} from 'react-icons/bi'
+import {IoIosArrowDropdown} from 'react-icons/io'
+
+
 
 
 export default function Twodaypackage() {
+
+  const[overview, setOverview] = useState(true)
+  const[schedule, setSchedule] = useState(true)
+
+  const ToggleOverview = () => {
+    setOverview(!overview)
+} 
+
+const ToggleSchedule = () => {
+  setSchedule(!schedule)
+}
+
+
+
   return (
+
     <>
     <AliceCarousel 
                 disableButtonsControls= {true}
@@ -38,8 +56,11 @@ export default function Twodaypackage() {
 
     </div>
     <div className={styles.overviewHolder}> 
-      <span className={styles.overviewHeading}>Overview</span>
-      <p className={styles.p}>
+      <div className={styles.ToggleView}>
+        <span className={styles.overviewHeading}>Overview</span>
+        <IoIosArrowDropdown onClick={ToggleOverview} className={styles.dropDown}/>
+      </div>
+      <p className={overview? styles.p :styles.pOff }>
           This is an exciting 2 days safari into the famous Maasai Mara, the jewel of Kenyas wildlife and the
           greatest spot for wildebeest migration. The trip will start immediately upon your arrival at Jomo Kenyatta
           International Airport into the famous Maasai Mara Game Reserve through the Great Rift Valley. You are
@@ -47,6 +68,22 @@ export default function Twodaypackage() {
           leopard among a host of other different animal species. You will travel in a shared safari tour van and stay
           in a tented camp.
       </p>
+      <div className={styles.ToggleView}>
+        <span className={styles.overviewHeading}>Schedule</span>
+        <IoIosArrowDropdown onClick={ToggleSchedule} className={styles.dropDown}/>
+      </div>
+      <div className={schedule? styles.schedule: styles.scheduleOff}>
+        <div className={styles.dayHolder}>
+          <span className={styles.dayHeader}>Day 1. Nairobi/Maasai Mara</span>
+          <p>
+            Depart Nairobi in the morning and drive to the floor of the Rift Valley - to Maasai Mara Game Reserve
+            arriving in time for lunch. Afternoon game drive. Dinner and overnight at Tented camp.
+            Approx transit time: 5½ hrs
+          </p>
+
+        </div>
+
+      </div>
     </div>
 
     </>
