@@ -69,7 +69,7 @@ const ToggleSchedule = () => {
           in a tented camp.
       </p>
       <div className={styles.ToggleView}>
-        <span className={styles.overviewHeading}>Schedule</span>
+        <span className={styles.overviewHeading}>Departures</span>
         <IoIosArrowDropdown onClick={ToggleSchedule} className={styles.dropDown}/>
       </div>
       <div className={schedule? styles.schedule: styles.scheduleOff}>
