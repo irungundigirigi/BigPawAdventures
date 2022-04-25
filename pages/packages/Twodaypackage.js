@@ -80,7 +80,14 @@ const ToggleSchedule = () => {
             arriving in time for lunch. Afternoon game drive. Dinner and overnight at Tented camp.
             Approx transit time: 5½ hrs
           </p>
-
+        </div>
+        <div className={styles.dayHolder}>
+          <span className={styles.dayHeader}>Day 2. Maasai Mara/Nairobi</span>
+          <p className={styles.p}>
+          Another early morning game drive in Mara, then depart after breakfast and drive back to Nairobi arriving
+          approx. 13:00hrs. Drop at your hotel or transfer to the airport for onward flight home.
+          Approx transit time: 5½ hrs
+          </p>
         </div>
 
       </div>
