@@ -17,14 +17,20 @@ export default function Twodaypackage() {
 
   const[overview, setOverview] = useState(true)
   const[schedule, setSchedule] = useState(true)
+  const[prices, setPrices] = useState(true)
+
 
   const ToggleOverview = () => {
     setOverview(!overview)
 } 
 
-const ToggleSchedule = () => {
-  setSchedule(!schedule)
-}
+  const ToggleSchedule = () => {
+    setSchedule(!schedule)
+  }
+
+  const TogglePrices = () => {
+    setPrices(!prices)
+  }
 
 
 
@@ -55,7 +61,8 @@ const ToggleSchedule = () => {
        </div>
 
     </div>
-    <div className={styles.overviewHolder}> 
+    
+    <div className={styles.contentHolder}> 
       <div className={styles.ToggleView}>
         <span className={styles.overviewHeading}>Overview</span>
         <IoIosArrowDropdown onClick={ToggleOverview} className={styles.dropDown}/>
@@ -68,6 +75,8 @@ const ToggleSchedule = () => {
           leopard among a host of other different animal species. You will travel in a shared safari tour van and stay
           in a tented camp.
       </p>
+
+      
       <div className={styles.ToggleView}>
         <span className={styles.overviewHeading}>Departures</span>
         <IoIosArrowDropdown onClick={ToggleSchedule} className={styles.dropDown}/>
@@ -89,8 +98,33 @@ const ToggleSchedule = () => {
           Approx transit time: 5½ hrs
           </p>
         </div>
+        
 
       </div>
+
+    {/* Prices */}
+
+    <div className={styles.ToggleView}>
+        <span className={styles.overviewHeading}>Prices</span>
+        <IoIosArrowDropdown onClick={TogglePrices} className={styles.dropDown}/>
+      </div>
+      <div className={prices? styles.prices: styles.pricesOff}>
+        <p>
+        If using Safari Van with pop up roof; <br/>
+        
+        <span className={styles.budget}>Using Budget Camp - Budget tented camp </span> (with beddings,hot shower,flush toilets) – This is a
+        Joining Safari
+        <ul>
+        <li>High season from US$250 per person sharing</li>
+        <li>Mid season from US$230 per person sharing</li>
+        <li>Low season from US$200per person sharing</li>
+        </ul>
+        The camp is built with all the comforts of home, including hot showers, bed with pillows, sheets, blankets
+        and mosquito nets. Additionally, there is a standby generator that supplies lights and refrigeration for the
+        dining area which allows you to charge your mobile phones and cameras
+        </p>
+      </div>
+
     </div>
 
     </>

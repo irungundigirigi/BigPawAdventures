@@ -39,8 +39,9 @@
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
-.overviewHolder {
+.contentHolder {
     padding: 0 15px;
+    
 }
 .overviewHeading{
     font-family: 'Raleway', sans-serif;
@@ -76,4 +77,15 @@
     margin-top: 15px;
     color: #483d8b;
     font-family: 'Raleway', sans-serif;
+}
+.prices {
+    font-family: 'Libre Baskerville', serif;
+
+}
+.pricesOff{
+    display: none;
+
+}
+.budget{
+    font-weight: bold;
 }
