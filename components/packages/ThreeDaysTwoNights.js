@@ -3,6 +3,7 @@ import Image from 'next/image'
 import zebra from '../../public/23._days.png';
 import React from 'react';
 import { AiOutlineArrowRight }  from 'react-icons/ai';
+import Link from 'next/link'
 
 
 
@@ -17,7 +18,11 @@ export default function TreeDaysTwoNights () {
             </div>
             <div className={styles.btm}>
                 <div className={styles.priceTag}> <span className={styles.From}>From</span> $1020</div>
-                <button className={styles.btn}>See more <AiOutlineArrowRight /></button>
+                <button className={styles.btn}>
+                    <Link href="packages/Threedaystwonightsmara">
+                     <AiOutlineArrowRight />
+                    </Link>
+                </button>
             </div>
 
         </div>

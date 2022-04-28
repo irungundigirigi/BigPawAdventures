@@ -14,8 +14,8 @@ export default function Home() {
         <Carousel />
       </div>
       <div className={styles.packagesHolder}> 
-        <TwoDayPackage />
         <TreeDaysTwoNights />
+        <TwoDayPackage />
         <MaraNakuru />
         <Nakuru />
       </div>
