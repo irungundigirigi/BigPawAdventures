@@ -71,7 +71,7 @@ export default function ThreeDaysTwoNightsMara() {
         This is a short safari featuring Maasai Mara National Reserve. The safari departs Nairobi in the morning
         and involves a drive down to the the floor of the Rift Valley, making a stop at view point to see the
         escarpment and the awesome sight of the valley and the features there in.
-        To arrive Maasai Mara in timefor lunch, followed by a late afternoon game drive that introduces you to Kenya's most popular game
+        To arrive Maasai Mara in timefor lunch, followed by a late afternoon game drive that introduces you to Kenyas most popular game
         sanctuary.
       </p>
 
