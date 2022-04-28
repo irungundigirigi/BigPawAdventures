@@ -1,0 +1,39 @@
+.footer {
+    background-color: rgb(68, 4, 4);
+    height:fit-content;
+    width: 100vw;
+    padding:5px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    color: white;
+   
+  }
+  .hr {
+      background-color: rgb(164, 76, 76);
+      height: 4px;
+      width: 100%;
+      outline: none;
+      margin-top: 20px;
+      border-radius: 50%;
+  }
+  .contactsContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: flex-start;
+
+  }
+  .item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 6px 20px;
+  }
+  .footerIcon {
+      font-size: 20px;
+      margin-right: 15px;
+  }
+      
+  
