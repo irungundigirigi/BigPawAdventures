@@ -17,7 +17,7 @@ export default function TreeDaysTwoNights () {
                 3 days Two nights Maasai Mara safari
             </div>
             <div className={styles.btm}>
-                <div className={styles.priceTag}> <span className={styles.From}>From</span> $1020</div>
+                <div className={styles.priceTag}> <span className={styles.From}>From</span> US$630</div>
                 <button className={styles.btn}>
                     <Link href="packages/Threedaystwonightsmara">
                      <AiOutlineArrowRight />

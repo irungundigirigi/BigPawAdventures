@@ -16,7 +16,7 @@ export default function TwoDayPackage() {
                 2 Days Maasai Mara Safari
             </div>
             <div className={styles.btm}>
-                <div className={styles.priceTag}> <span className={styles.From}>From</span> $1020</div>
+                <div className={styles.priceTag}> <span className={styles.From}>From</span> US$250</div>
                 <button className={styles.btn}>
                     <Link href="packages/Twodaypackage">
                      <AiOutlineArrowRight />

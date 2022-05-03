@@ -112,7 +112,7 @@ export default function Twodaypackage() {
         <p>
         If using Safari Van with pop up roof; <br/>
         
-        <span className={styles.budget}>Using Budget Camp - Budget tented camp </span> (with beddings,hot shower,flush toilets) – This is a
+        <span className={styles.budg}>Using Budget Camp - Budget tented camp </span> (with beddings,hot shower,flush toilets) – This is a
         Joining Safari
         <ul>
         <li>High season from US$250 per person sharing</li>
