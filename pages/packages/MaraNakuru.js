@@ -93,7 +93,7 @@ export default function Twodaypackage() {
         <div className={styles.dayHolder}>
           <span className={styles.dayHeader}>Day 2. Maasai Mara</span>
           <p className={styles.p}>
-          Full day in Maasai Mara, Kenya's most popular game sanctuary where you will have the best opportunity
+          Full day in Maasai Mara, Kenyas most popular game sanctuary where you will have the best opportunity
             of spotting the Big Five - lion, leopard, buffalo, rhino and elephant.
             Game drives are flexible, with the option of going out with picnic lunch boxes to spend entire day in the
             the park, or you can choose to have early morning and late afternoon game drives.
