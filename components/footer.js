@@ -11,7 +11,7 @@ export default function Footer() {
     <div className={styles.hr} ></div>
     <div className={styles.contactsContainer}>
       <div className={styles.item}> <FaPhoneSquareAlt className={styles.footerIcon} /> +254 720859681</div>
-      <div className={styles.item}> <MdEmail  className={styles.footerIcon}/>kellykellitoh@gmail.com</div>      
+      <div className={styles.item}> <MdEmail  className={styles.footerIcon}/>bigpawadventuresafaris@gmail.com</div>      
       <div className={styles.item}> <MdLocationOn className={styles.footerIcon} /> Nairobi, Kenya</div>  
     </div>
     </div>
