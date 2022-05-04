@@ -71,7 +71,7 @@ export default function ThreeDaysTwoNightsMara() {
       </div>
       <p className={overview? styles.p :styles.pOff }>
         Adding to two memorable days at the game filled plains of the Maasai Mara Game Reserve, this safari also
-        takes you to Lake Nakuru National Park which is one of the world's greatest bird paradise. Other than the
+        takes you to Lake Nakuru National Park which is one of the worlds greatest bird paradise. Other than the
         bird population of different species and especially flamingos that flock the lake, the park has its fair share
         of wildlife that include the endangered black rhino.
       </p>
@@ -107,7 +107,7 @@ export default function ThreeDaysTwoNightsMara() {
              Depart Amboseli in the morning and drive via Nairobi to the floor of the Rift Valley with hot or picnic
             lunch en route to Lake Nakuru National Park arriving for your afternoon game drive. Besides the
             flamingos that the lake is famous for, there are approx 400 other species of birds visiting the lake. Also,
-            many species of game can be found in the park including the introduced Rothschild's giraffe, black and
+            many species of game can be found in the park including the introduced Rothschilds giraffe, black and
             white rhino, waterbuck, reedbuck, lion, buffalo, leopard, baboon and many species of plains game. Dinner
             and overnight at lion hill camp.
             Approx Travel time: 7 hrs
