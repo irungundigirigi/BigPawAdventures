@@ -1,0 +1,15 @@
+.whatsappIcon {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    color: green;
+    bottom: 40px;
+    z-index: 100;
+    right: 40px;
+}
+.whatsappIcon:hover {
+    height: 70px;
+    width: 70px;
+    transition: .5s;
+ 
+}
