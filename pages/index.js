@@ -14,14 +14,14 @@ export default function Home() {
       <div className={styles.carousel}>
         <Carousel />
       </div>
-      <div className={styles.packagesHolder}> 
+      <div className={styles.packagesHolder}>
         <TreeDaysTwoNights />
         <TwoDayPackage />
         <NairobiCityTours />
         <MaraNakuru />
         <Nakuru />
       </div>
-      
+
     </div>
   )
 }
